@@ -6,6 +6,10 @@ var board = new five.Board({
 
 board.on("ready", function() {
   console.log('connesso');
-  var led = new five.Led(13);
+  led = new five.Led(9);
   led.blink(500);
+
+  // this.repl.inject({
+  //   led: led
+  // })
 });

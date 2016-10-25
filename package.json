@@ -5,9 +5,14 @@
   "main": "script.js",
   "dependencies": {
     "etherport": "^0.1.4",
+    "etherport-client": "^0.1.2",
+    "firmata": "^0.14.1",
     "johnny-five": "^0.10.3",
+    "net": "^1.0.2",
+    "remote-io": "^0.8.0",
     "socket.io": "~0.9.13",
-    "socketio": "^1.0.0"
+    "socketio": "^1.0.0",
+    "udp-serial": "^0.2.0"
   },
   "devDependencies": {},
   "scripts": {
